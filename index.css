@@ -1,0 +1,244 @@
+.top-container{
+    height: 700px;
+    position: absolute;
+    width: 100vw;
+    background-size: contain;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ce221d7a-8901-41d9-b726-3ea2efe3a650/2f69dcef-463f-44da-b3b9-662b65f33f82/IN-en-20230703-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+body{
+    margin: 0 0;
+    background-color: rgb(83, 82, 82);
+    color: white;
+}
+.brand-logo{
+    height: 80px;
+    width: 200px;
+    margin-left: 15%;
+}
+.content{
+    color: aliceblue;
+    height: 650px;
+    margin-bottom: 0px;
+    background: rgb(3,0,7);
+    background: -moz-linear-gradient(180deg, rgba(3,0,7,0.26156761532738093) 31%, rgba(7,1,15,1) 99%);
+    background: -webkit-linear-gradient(180deg, rgba(3,0,7,0.26156761532738093) 31%, rgba(7,1,15,1) 99%);
+    background: linear-gradient(180deg, rgba(3,0,7,0.26156761532738093) 31%, rgba(7,1,15,1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#030007",endColorstr="#07010f",GradientType=1);
+}
+.children{
+    width: 700px;
+    height: 500px;
+}
+.main{
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-top: 0;
+    font-size: 25px;
+}
+.emailID{
+    height: 45px;
+    width: 350px;
+    background-color: transparent;
+    border: 1px solid grey;
+    padding-left: 25px;
+    font-size: 16px;
+    border-radius: 1px 1px;
+}
+.emailID:focus{
+    color: aliceblue;
+}
+
+.mybutton{
+    height: 50px;
+    font-size: 24px;
+    border-radius: 4px 4px;
+    width: 200px;
+    border: 0;
+    margin-top: 15px;
+    background-color: #e50914;
+    color: white;
+}
+
+span{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+select{
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+}
+.detail{
+    text-align: center;
+}
+.signup{
+    margin-top: 15px;
+}
+.right-nav{
+    position: absolute;
+    right: 50px;
+    top: 25px;
+
+}
+.lower1{
+ 
+    height: 600px;
+    padding-top: 60px;
+    width: 100vw;
+    background-color: black;
+}
+.lower{
+    margin-top: 10px;
+    height: 600px;
+    padding-top: 60px;
+    width: 100vw;
+    background-color: black;
+}
+
+.left-part{
+    color: white;
+    padding-left: 150px;
+    position: absolute;
+    width: 600px;
+    left: 0;
+    display: inline-block;
+    text-align: left !important;
+}
+.video{
+    height: 400px;
+    width: 438px;
+    position: absolute;
+    right: 83px;
+    top: 40px;
+}
+.wrapper{
+    background-size: cover;
+}
+
+.remote{
+    position: absolute;
+    right: 98px;
+    top: 260px;
+    z-index: 4;
+}
+.video2{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    right: 140px;
+}
+.right-img{
+    position: inherit;
+    right: 38px;
+    top: 185px;
+    width: 160px; 
+}
+.left-img{
+    position: absolute;
+    right: 100px;
+    top: 185px;
+    width: 80px; 
+}
+.tv{
+    height: 500px;
+    width: 600px;
+    position: absolute;
+}
+
+.right-part{
+    position: absolute;
+    width: 600px;
+    right:150px;
+    display: inline-block;
+}
+
+.FAQ{
+    text-align: center;
+    margin-top: 0;
+}
+.faq{
+    height: 700px;
+}
+.collapsible {
+    background-color: #2d2d2d;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 80vw;
+    border: none;
+    margin-left: 7vw;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+.active,.collapsible:hover {
+    background-color: rgb(62, 62, 62);
+  }
+  .content2 {
+    padding: 0 16.2px;
+    margin-left: 7vw;
+    max-height: 0;
+    width: 78vw;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #2d2d2d;
+  }
+p{
+    font-family: sans-serif;
+}
+  .fa-plus{
+    position: absolute;
+    right: 250px;
+  }
+  .signup-bottom{
+    text-align: center;
+  }
+
+a{
+    color: rgb(183, 180, 180);
+    
+}
+ul{
+    display: inline-block;
+    width: 200px;
+    list-style-type: none;
+    padding: 0 0;
+    margin-right: 150px;
+}
+@media screen and (max-width:1450px) {
+    .left-part,.right-part{
+        position: relative;
+        left: 50px;
+        top: 0;
+    }
+    .lower{
+        height: 1000px;
+    }
+    .lower1{
+        height: 1000px;
+    }
+}
+.contact{
+    color: rgb(183, 180, 180);
+    font-size: 15px;
+}
+li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hide{
+    visibility: hidden;
+}
+.footer{
+    margin-top: 10px;
+    padding-top: 60px;
+    padding-left: 100px;
+    width: 94vw;
+    background-color: black;
+}
